@@ -1,7 +1,6 @@
 import hashlib
-s = input("Введите число или слово ")
-print("Выберите алгоритм хеширования ")
-hash1 = input("md5(m)/SHA(s)")
+s = input("Enter a number or word: ")
+hash1 = input("Choose a hashing algorithm: md5(m)/SHA(s)")
 if hash1 =='':
   print('error')
 else:
