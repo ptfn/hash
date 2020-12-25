@@ -1,6 +1,6 @@
 import hashlib, os
 
-file_name = input('Имя файла:')
+file_name = input('File name:')
 file = open(file_name, 'r')
 string = file.readlines()
 hash = ''
